@@ -1,0 +1,51 @@
+baseURL = "https://br0wnboi.pages.dev/"
+title = "br0wnboi's corner on interwebs"
+locale = "en-US"
+
+theme = "hugo-theme-symbiote"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML", "TXT", "RSS"]
+  page = ["HTML", "TXT"]
+  section = ["HTML", "TXT", "RSS"]
+
+[outputFormats]
+  [outputFormats.TXT]
+    mediaType = "text/plain"
+    isPlainText = true
+    notAlternative = true
+
+[menus]
+  [[menus.main]]
+    name = "/home"
+    url = "/"
+    weight = 1
+  [[menus.main]]
+    name = "/whoami"
+    url = "/about/"
+    weight = 2
+
+  [[menus.main]]
+    name = "/projects"
+    url = "/projects/"
+    weight = 3
+
+  [[menus.main]]
+    name = "/blog"
+    url = "/blog/"
+    weight = 4
+
+
+[params]
+  description = "Tinkerer. Breaker of things. Maker of weird scripts."
+  author = "br0wnboi"
+  # Theme Configuration
+  promptUser = "br0wnboi"
+  promptHost = "interwebs"
+  showCursor = true
+  themes = ["charcoal", "venom", "carnage", "black-suit", "anti-venom", "amoled", "gruvbox", "dracula", "nord", "catppuccin"]
