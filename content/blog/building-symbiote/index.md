@@ -49,3 +49,5 @@ A common issue in Hugo templating is ensuring that layout CSS doesn't accidental
 The final product is a hyper-optimized theme relying on **Hugo Pipes** to fingerprint and minify the CSS. It features full i18n support, a built-in `curl` hint footer for terminal junkies, and a dynamic ASCII art banner. 
 
 If you're a developer or security researcher looking for a fast, no-nonsense theme, check out the [source code on GitHub](https://github.com/br0wnboi/hugo-theme-symbiote). Feel free to fork it, break it, and build your own custom symbiote variant.
+
+> This article may or may not be AI generated, I guess we'll never know. In my defence, it's too hard to sit down and type all this out, giving pointers to AI was easier okay? Now I'm curious, did you actually read through all of it? I probably wouldn't have.

@@ -1,5 +1,5 @@
 ---
-title: "br0wnboi's corner on the interwebs"
+title: "br0wnboi's corner on the interwebz"
 ---
 
 <section class="bio">
@@ -14,11 +14,11 @@ title: "br0wnboi's corner on the interwebs"
 
 <p class="tagline">"Why use a GUI when a 500-line bash script will do?"</p>
 
-Hey, I'm **br0wnboi**. Welcome to my quiet corner of the internet.
+Hey, I'm **br0wnboi**. Welcome to my quiet corner of the interwebz.
 
-By day, I work closely with **embedded devices**, figuring out how they tick (and how to break them). By night, I'm usually writing obscure scripts, building weird AI automations, and trying to convince the world that CachyOS/Linux is vastly superior to Windows.
+By day, I work closely with **embedded devices**, figuring out how they tick (and how to break them). By night, I'm usually writing obscure scripts, spending too long automating some problems that I made up for myself just because I would rather do it in the terminal than use the GUI.
 
-When I'm not actively dismantling hardware, you'll find me spending an unreasonable amount of my free time tinkering to make Windows-only games run seamlessly on my CachyOS setup, or developing custom tools like [**ned-cvss-calculator**](https://github.com/br0wnboi/ned-cvss-calculator) (a completely offline, privacy-first browser extension for calculating CVSS v3.1 & v4.0 scores on the fly).
+When I'm not actively breaking things, you'll find me spending an unreasonable amount of my free time tinkering to make Windows-only games run seamlessly on my CachyOS setup(thank god for Proton), or developing custom tools like [**Ned**](https://github.com/br0wnboi/ned-cvss-calculator)
 
 I occasionally dump my thoughts about security, Linux, and caffeine-fueled coding sessions here. 
 
