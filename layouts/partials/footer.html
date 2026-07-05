@@ -1,0 +1,33 @@
+<footer>
+    <p>prefer the terminal? try <code>curl -sL https://br0wnboi.xyz/</code></p>
+</footer>
+<script>
+    const themes = {{ site.Params.themes | default (slice "charcoal") | jsonify | safeJS }};
+    const toggle = document.getElementById('theme-toggle');
+    let currentTheme = document.documentElement.getAttribute('data-theme') || 'charcoal';
+
+    if (themes.indexOf(currentTheme) === -1) {
+        currentTheme = themes[0] || 'charcoal';
+        if (currentTheme === 'charcoal') {
+            document.documentElement.removeAttribute('data-theme');
+        } else {
+            document.documentElement.setAttribute('data-theme', currentTheme);
+        }
+        localStorage.setItem('theme', currentTheme);
+    }
+    
+    toggle.textContent = `[${currentTheme}]`;
+
+    toggle.addEventListener('click', () => {
+        currentTheme = themes[(themes.indexOf(currentTheme) + 1) % themes.length];
+        
+        if (currentTheme === 'charcoal') {
+            document.documentElement.removeAttribute('data-theme');
+        } else {
+            document.documentElement.setAttribute('data-theme', currentTheme);
+        }
+        
+        localStorage.setItem('theme', currentTheme);
+        toggle.textContent = `[${currentTheme}]`;
+    });
+</script>
