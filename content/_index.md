@@ -28,9 +28,9 @@ When I'm not actively dismantling hardware, you'll find me spending an unreasona
 I occasionally dump my thoughts about security, Linux, and caffeine-fueled coding sessions here. 
 
 <div class="social-links">
-<a href="https://github.com/br0wnboi">github</a>
-<a href="https://twitter.com/br0wnboi">x</a>
+<a href="https://github.com/br0wnboi" target="_blank">github</a>
+<a href="https://twitter.com/br0wnboi" target="_blank">x</a>
 <a href="mailto:akshat987@pm.me">email</a>
-<a href="/blog/index.xml">rss</a>
+<a href="/blog/index.xml" target="_blank">rss</a>
 </div>
 </section>
