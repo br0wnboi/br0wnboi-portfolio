@@ -26,7 +26,7 @@ I occasionally dump my thoughts about security, Linux, and caffeine-fueled codin
 <a href="https://github.com/br0wnboi" target="_blank">Github</a>
 <a href="https://twitter.com/br0wnboi" target="_blank">X</a>
 <a href="mailto:akshat987@pm.me">E-mail</a>
-<a href="/blog/index.xml" target="_blank">RSS(not the BJP one)</a>
 <a href="https://tryhackme.com/p/br0wnboi" target="_blank">TryHackMe</a>
+<a href="/blog/index.xml" target="_blank">RSS(not the BJP one)</a>
 </div>
 </section>
