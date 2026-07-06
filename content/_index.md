@@ -27,5 +27,6 @@ I occasionally dump my thoughts about security, Linux, and caffeine-fueled codin
 <a href="https://twitter.com/br0wnboi" target="_blank">x</a>
 <a href="mailto:akshat987@pm.me">email</a>
 <a href="/blog/index.xml" target="_blank">rss</a>
+<a href="https://tryhackme.com/p/br0wnboi" target="_blank">TryHackMe</a>
 </div>
 </section>
